@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    margin: 0;
+    padding: 12px;
+    border: 1px solid red;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.item-2 {
+    margin-right: aut;
+}
+
+.item-5 {
+    height: 23px;
+    width: 23px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+}
+.doodle {
+    padding-top: 44px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    overflow: auto;
+}
